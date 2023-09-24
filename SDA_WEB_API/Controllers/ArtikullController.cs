@@ -47,6 +47,11 @@ namespace SDA_WEB_API.Controllers
             }
         }
 
+        /// <summary>  
+        /// get By id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("getBydID")]
         public async Task<IActionResult> MerByID([FromQuery] int id)
         {
